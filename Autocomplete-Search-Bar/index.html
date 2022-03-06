@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0a45e4141c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Search bar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/townsList.js"></script>
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <h2 class="search-bar__title">Въведи име на град:</h2>
+      <section class="search-bar">
+        <input
+          type="search"
+          id="inp"
+          class="search-bar__input"
+          placeholder="кирилица..."
+          name="search"
+        />
+
+        <div class="search-bar__dropdown"><li>undefined</li></div>
+        <div class="search-bar__icon">
+          <button class="btn" onclick="">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
