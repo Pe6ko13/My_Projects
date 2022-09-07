@@ -59,7 +59,6 @@ function showSuggestions(list) {
 
 document.querySelector(".btn").addEventListener("click", (e) => {
   e.preventDefault();
-  console.log("clik");
   let query = inputBox.value;
   window.location.href = `https://www.google.com/maps/place/${query}`;
 });
